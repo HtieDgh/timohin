@@ -1,0 +1,23 @@
+{
+    "name": "429272-26/timohin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "don joan",
+            "email": "htiedgh@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"1.0"
+    },
+
+	"repositories":[
+		{
+			"type":"git",
+			"url":"https://github.com/rok9ru/trpo-core"
+		}
+		
+	]
+}
