@@ -1,23 +1,27 @@
 {
-    "name": "429272-26/timohin",
+    "name": "htiedgh/timohin",
+    "description": "for trpo",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "don joan",
+            "name": "donjoan",
             "email": "htiedgh@mail.ru"
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "rok9ru/trpo-core":"1.0"
-    },
-
-	"repositories":[
+    "repositories":[
 		{
-			"type":"git",
-			"url":"https://github.com/rok9ru/trpo-core"
+			"type":"vcs",
+			"url":"https://github.com/rok9ru/trpo-core.git"
 		}
-		
-	]
+    ],
+    "require": {
+        "rok9ru/trpo-core":"2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "timohin\\": "timohin"
+        }
+    }
 }
