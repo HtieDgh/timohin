@@ -1,9 +1,9 @@
 <?php namespace timohin;
 class MyLog extends \core\LogAbstract implements \core\LogInterface{
-    public static function log($str){
+    public static function log(string $str):void{
         self::Instance()->log[]=['msg'=>$str];
     }
-    public static function write(){
+    public static function write():void{
         self::Instance()->_write();
     }
     public function _write(){
