@@ -21,7 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "timohin\\": "timohin"
+            "timohin\\": "timohin",
+            "unittest\\":"tests"
         }
     }
 }
